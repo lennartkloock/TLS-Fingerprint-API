@@ -9,7 +9,7 @@ linux)
   GOARCH=amd64 GOOS=linux go build -o build/linux/TLS-Fingerprint-API
   strip build/linux/TLS-Fingerprint-API
   ;;
-macos)
+darwin)
   GOARCH=amd64 GOOS=darwin go build -o build/darwin/TLS-Fingerprint-API
   x86_64-apple-darwin14-strip build/darwin/TLS-Fingerprint-API
   ;;
